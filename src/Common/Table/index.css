@@ -1,0 +1,26 @@
+.MuiTableRow-root.css-1q1u3t4-MuiTableRow-root.MuiTableRow-hover:hover {
+  background-color: var(--theme-table-row-hover);
+}
+
+.MuiTableCell-root.css-y8ay40-MuiTableCell-root {
+  font-family: var(--primary-font);
+  font-size: var(--theme-font-size__secondary);
+  font-weight: var(--theme-font-weight__primary);
+  font-stretch: normal;
+  font-style: normal;
+  line-height: var(--theme-line-height__secondary);
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--theme-font-color__quaternary);
+}
+.MuiTableCell-root.css-13bjo3u-MuiTableCell-root{
+  font-family: var(--primary-font);
+  font-size: var(--theme-font-size__secondary);
+  font-weight: var(--theme-font-weight__tertiary);
+  font-stretch: normal;
+  font-style: normal;
+  line-height: var(--theme-line-height__secondary);
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--theme-font-color__tertiary);
+}

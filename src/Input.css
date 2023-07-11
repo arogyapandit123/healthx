@@ -1,0 +1,87 @@
+.MuiTextField-root {
+ 
+}
+.MuiInputBase-root >.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root:hover, 
+.MuiInputBase-root > .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #c1c7d0;
+}
+
+.MuiInputBase-root.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused > .MuiOutlinedInput-notchedOutline{
+  border: 1px solid var(--theme-font-color__quinary);
+}
+
+.MuiInputBase-root.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  flex-grow: 0;
+  font-family: var(--primary-font);
+  font-size: var(--theme-font-size__secondary);
+  font-weight: var(--theme-font-weight__tertiary);
+  font-stretch: normal;
+  font-style: normal;
+  line-height: var(--theme-line-height__secondary);
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--theme-font-color__tertiary);
+}
+.registration-input > .MuiInputBase-root >.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root:hover, 
+.registration-input > .MuiInputBase-root > .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #f3f3f3;
+}
+
+.MuiDialogTitle-root.dialog-content__title {
+  font-family: var(--primary-font);
+  font-size: var(--theme-font-size__quinary);
+  font-weight: var(--theme-font-weight__bold);
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.61;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--theme-font-color__tertiary);
+}
+.MuiDialogTitle-root.dialog-content__title {
+  padding-top: 34px;
+  padding-bottom: 30px;
+}
+.MuiDialogTitle-root.dialog-content__title > button {
+  padding-top: 28px;
+}
+.dialog-content__subtitle {
+  font-family: var(--primary-font);
+  font-size: var(--theme-font-size__secondary);
+  font-weight: var(--theme-font-weight__tertiary);
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: left;
+  color: #727272;
+}
+
+.MuiFormHelperText-root.Mui-error.css-1wc848c-MuiFormHelperText-root {
+  margin-left: 0;
+  flex-grow: 0;
+  margin: 8px 0 0 1px;
+  font-family: var(--primary-font);
+  font-size: 14px;
+  font-weight: var(--theme-font-weight__tertiary);
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--theme-validation__error);
+}
+.Mui-error.css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root > .MuiOutlinedInput-notchedOutline.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border-color: var(--theme-validation__error);
+}
+
+.MuiFormControl-root > .css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root,
+.MuiFormControl-root > .css-2ehmn7-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 8px;
+}
+
+.MuiInputBase-root.Mui-focused.css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root > .MuiOutlinedInput-notchedOutline, 
+.MuiInputBase-root.Mui-focused.css-2ehmn7-MuiInputBase-root-MuiOutlinedInput-root > .MuiOutlinedInput-notchedOutline {
+  border-width: 1px;
+  border-color: var(--theme-font-color__quinary);
+}

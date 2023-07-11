@@ -1,0 +1,27 @@
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root.theme-navbar__container {
+  background-color: var(--theme-font-color__primary);
+  border-bottom: 1px solid var(--theme-font-color__secondary);
+  box-shadow: unset;
+}
+
+.MuiMenuItem-root.nav-link-menu-item:hover {
+  background-color: unset;
+}
+
+.MuiIconButton-root.nav-link-menu-item-icon-button:hover {
+  background-color: unset;
+}
+
+.MuiIconButton-root.nav-link-logo-icon-button:hover {
+  background-color: unset;
+}
+
+.nav-link__active {
+  /* background-color: green;
+  color: red; */
+}
+
+.nav-link__active  .MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.nav-link-menu-item-icon-button {
+  background-color: var(--theme-not-weighted__background);
+  border-radius: 4px;
+}

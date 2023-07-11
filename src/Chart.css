@@ -1,0 +1,68 @@
+.chart-label-width {
+  width: 252px;
+}
+
+.MuiTypography-root.chart-label-name, 
+.MuiTypography-root.chart-label-value {
+  flex-grow: 0;
+  font-family: var(--primary-font);
+  font-size: var(--theme-font-size__secondary);
+  font-stretch: normal;
+  font-style: normal;
+  line-height: var(--theme-line-height__secondary);
+  letter-spacing: normal;
+  color: var(--theme-font-color__tertiary);
+}
+.MuiTypography-root.chart-label-name {
+  font-weight: var(--theme-font-weight__tertiary);
+  text-align: left;
+}
+.MuiTypography-root.chart-label-value {
+  font-weight: var(--theme-font-weight__bold);
+  text-align: right;
+}
+
+.MuiTypography-root.chart-title {
+  font-family: var(--primary-font); 
+  font-size: 16px;
+  line-height: normal; 
+  font-weight: var(--theme-font-weight__primary);
+}
+.chart-card-item {
+  height: 320px;
+}
+
+.recharts-legend-item > .recharts-surface, .recharts-legend-icon {
+  width: 7px;
+  height: 7px;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+
+.recharts-layer > path:focus {
+  outline: unset;
+}
+@media screen and (max-width: 360px) {
+  .chart-label-width {
+    width: 152px;
+  }
+}
+
+.recharts-yAxis .recharts-text {
+  transform: translate(-5px, 0);
+}
+
+.recharts-legend-wrapper {
+  bottom: -5px !important;
+}
+
+.recharts-legend-item-text {
+  text-transform: capitalize;
+  color: var(--theme-graph-legend-color) !important;
+}
+
+.recharts-custom-tooltip-item-text, .recharts-legend-item-text {
+  font-size: var(--theme-font-size__secondary);
+  line-height: var(--theme-line-height__secondary);
+  font-weight: var(--theme-font-weight__tertiary);
+}

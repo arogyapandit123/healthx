@@ -1,0 +1,19 @@
+.recharts-yAxis .recharts-text {
+  transform: translate(-50px, 0);
+}
+
+.recharts-cartesian-axis-line, 
+.recharts-cartesian-axis-tick-line,
+.recharts-cartesian-grid-vertical {
+  display: none;
+}
+
+.recharts-text.recharts-cartesian-axis-tick-value{}
+
+.recharts-rectangle {
+  border-radius: 20px;
+}
+
+.recharts-tooltip-cursors {
+ display: none;
+}
